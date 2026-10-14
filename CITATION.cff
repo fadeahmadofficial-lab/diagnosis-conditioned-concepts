@@ -1,14 +1,17 @@
 cff-version: 1.2.0
 message: "If you use this code, please cite the paper and this software."
+doi: 10.5281/zenodo.23371805
 title: "Code for: Diagnosis-Conditioned Concept Labels in Dermoscopy"
 authors:
   - family-names: Ahmad
     given-names: Fade Hafez
+    orcid: "https://orcid.org/0009-0002-6732-7166"
     affiliation: "SRM Institute of Science and Technology"
-  - family-names: L
+  - family-names: Loganathan
     given-names: Sathyapriya
+    orcid: "https://orcid.org/0000-0003-1680-0689"
     affiliation: "SRM Institute of Science and Technology"
-version: "1.0.0"
+version: "1.0.1"
 date-released: 2026-10-14
 license: MIT
 repository-code: "https://github.com/fadeahmadofficial-lab/paper2-diagnosis-conditioned-concepts"

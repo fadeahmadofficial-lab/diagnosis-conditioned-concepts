@@ -1,6 +1,8 @@
 # Diagnosis-conditioned concept labels in dermoscopy
 
-Code for the paper *"Diagnosis-Conditioned Concept Labels in Dermoscopy: Measuring the Coupling and Auditing Concept Evaluation"* (Fade Hafez Ahmad and Sathyapriya L, SRM Institute of Science and Technology). [Add the journal and DOI after acceptance.]
+[![DOI](https://zenodo.org/badge/1418582685.svg)](https://doi.org/10.5281/zenodo.23371805)
+
+Code for the paper *"Diagnosis-Conditioned Concept Labels in Dermoscopy: Measuring the Coupling and Auditing Concept Evaluation"* (Fade Hafez Ahmad and Sathyapriya Loganathan, SRM Institute of Science and Technology). [Add the journal and DOI after acceptance.]
 
 The code measures how strongly concept labels depend on the diagnosis. It scores concept models against a diagnosis-only null and tests the effect of censoring opposite-side features. It also contains the training code for every model used in the paper.
 
@@ -98,5 +100,3 @@ See `CITATION.cff`. Please also cite the dataset papers listed above.
 ## Licence
 
 Code: MIT (see `LICENSE`). [Authors: confirm the licence before publishing.] The licence covers our code only, not the datasets.
-# diagnosis-conditioned-concepts
-# diagnosis-conditioned-concepts
