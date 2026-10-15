@@ -1,0 +1,11 @@
+aware readers 14, blind readers 113; concepts F1 9, F2 9, shared 8
+--- image only
+  F1 excess                          +0.007 [-0.011, +0.023]  width 0.034
+  F2 excess                          +0.035 [+0.022, +0.049]  width 0.027
+  F2-F1 overall excess (shared)      +0.021 [+0.002, +0.040]  width 0.038
+  F2-F1 same-side dtheta (shared)    +0.002 [-0.024, +0.027]  width 0.051
+--- image x reader
+  F1 excess                          +0.007 [-0.019, +0.038]  width 0.057
+  F2 excess                          +0.035 [+0.017, +0.053]  width 0.036
+  F2-F1 overall excess (shared)      +0.021 [-0.011, +0.053]  width 0.064
+  F2-F1 same-side dtheta (shared)    +0.002 [-0.047, +0.066]  width 0.113

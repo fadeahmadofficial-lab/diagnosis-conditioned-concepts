@@ -1,0 +1,2 @@
+=== B3 V2 (pi1 - pi0) on PN_atyp, DaG_irr, RS, VS_atyp: selected -0.055 [-0.078, -0.031]; rest -0.020 [-0.048, +0.006]; difference -0.035 [-0.070, +0.004] -> no detectable difference
+=== B3 T1 (aware - std at pi1) on PN_atyp, DaG_irr, RS, VS_atyp: selected +0.031 [+0.009, +0.055]; rest +0.018 [-0.007, +0.044]; difference +0.013 [-0.020, +0.048] -> no detectable difference

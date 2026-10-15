@@ -1,0 +1,115 @@
+setting,concept,side,stratum,identifiable,auroc_model,auroc_null
+F1 Derma-XAI EffB0 -> aware reads,TRBL,mel,naevus,False,,
+F1 Derma-XAI EffB0 -> aware reads,TRBL,mel,melanoma,True,0.5648129118055976,0.5143988393882608
+F1 Derma-XAI EffB0 -> aware reads,ESA,mel,naevus,False,,
+F1 Derma-XAI EffB0 -> aware reads,ESA,mel,melanoma,True,0.5946816306066565,0.534208800956458
+F1 Derma-XAI EffB0 -> aware reads,GP,mel,naevus,False,,
+F1 Derma-XAI EffB0 -> aware reads,GP,mel,melanoma,True,0.5434869017600953,0.5380463810600318
+F1 Derma-XAI EffB0 -> aware reads,PV,mel,naevus,False,,
+F1 Derma-XAI EffB0 -> aware reads,PV,mel,melanoma,True,0.6921007318123115,0.6620749031424881
+F1 Derma-XAI EffB0 -> aware reads,BDG,mel,naevus,False,,
+F1 Derma-XAI EffB0 -> aware reads,BDG,mel,melanoma,True,0.5534542263819833,0.5368879789412111
+F1 Derma-XAI EffB0 -> aware reads,WLSA,mel,naevus,False,,
+F1 Derma-XAI EffB0 -> aware reads,WLSA,mel,melanoma,True,0.7415366558086172,0.6476914555501337
+F1 Derma-XAI EffB0 -> aware reads,SPC,nev,naevus,True,0.6087467524433996,0.5167017196585426
+F1 Derma-XAI EffB0 -> aware reads,SPC,nev,melanoma,False,,
+F1 Derma-XAI EffB0 -> aware reads,APC,nev,naevus,True,0.6061310782241015,0.4811839323467231
+F1 Derma-XAI EffB0 -> aware reads,APC,nev,melanoma,False,,
+F1 Derma-XAI EffB0 -> aware reads,MS,nev,naevus,True,0.4899443731279418,0.4833119383825417
+F1 Derma-XAI EffB0 -> aware reads,MS,nev,melanoma,False,,
+F2 Derma-XAI EffB0 -> blind reads,TRBL,mel,naevus,False,,
+F2 Derma-XAI EffB0 -> blind reads,TRBL,mel,melanoma,True,0.5412497139350653,0.5112504654305289
+F2 Derma-XAI EffB0 -> blind reads,ESA,mel,naevus,True,0.551714358684831,0.542354918513478
+F2 Derma-XAI EffB0 -> blind reads,ESA,mel,melanoma,True,0.6671776868927116,0.5956673604172764
+F2 Derma-XAI EffB0 -> blind reads,GP,mel,naevus,False,,
+F2 Derma-XAI EffB0 -> blind reads,GP,mel,melanoma,True,0.5582721264574773,0.5614784765003094
+F2 Derma-XAI EffB0 -> blind reads,BDG,mel,naevus,False,,
+F2 Derma-XAI EffB0 -> blind reads,BDG,mel,melanoma,True,0.555802378739577,0.516419153070528
+F2 Derma-XAI EffB0 -> blind reads,WLSA,mel,naevus,False,,
+F2 Derma-XAI EffB0 -> blind reads,WLSA,mel,melanoma,True,0.6991364037118052,0.6244706414804712
+F2 Derma-XAI EffB0 -> blind reads,OPC,nev,naevus,True,0.6604277267464627,0.510502277373331
+F2 Derma-XAI EffB0 -> blind reads,OPC,nev,melanoma,False,,
+F2 Derma-XAI EffB0 -> blind reads,SPC,nev,naevus,True,0.6015604076976245,0.5072540594998223
+F2 Derma-XAI EffB0 -> blind reads,SPC,nev,melanoma,False,,
+F2 Derma-XAI EffB0 -> blind reads,APC,nev,naevus,True,0.6304375579522312,0.4896126113951807
+F2 Derma-XAI EffB0 -> blind reads,APC,nev,melanoma,True,0.569273147133445,0.553409593388532
+F2 Derma-XAI EffB0 -> blind reads,MS,nev,naevus,True,0.6105048474153248,0.5946696646935683
+F2 Derma-XAI EffB0 -> blind reads,MS,nev,melanoma,False,,
+F3 Derma-XAI EffB0 -> EASY,TRBL,mel,naevus,True,0.5933108074629463,0.558083500226164
+F3 Derma-XAI EffB0 -> EASY,TRBL,mel,melanoma,True,0.5106717832549817,0.4522300176359468
+F3 Derma-XAI EffB0 -> EASY,GP,mel,naevus,True,0.5770952074267648,0.5554151388626275
+F3 Derma-XAI EffB0 -> EASY,GP,mel,melanoma,True,0.6486466121552118,0.591623482056916
+F3 Derma-XAI EffB0 -> EASY,PV,mel,naevus,False,,
+F3 Derma-XAI EffB0 -> EASY,PV,mel,melanoma,True,0.740121770809876,0.6070701625570438
+F3 Derma-XAI EffB0 -> EASY,PRL,mel,naevus,True,0.7103158607568406,0.6052159752341949
+F3 Derma-XAI EffB0 -> EASY,PRL,mel,melanoma,True,0.6580919301753705,0.5400292428922722
+F3 Derma-XAI EffB0 -> EASY,WLSA,mel,naevus,False,,
+F3 Derma-XAI EffB0 -> EASY,WLSA,mel,melanoma,True,0.7255466024528224,0.7123853974393867
+F4 Derm7pt EffB4 OOF -> Derm7pt,PN_atyp,mel,naevus,True,0.8160501470360625,0.5947479750296651
+F4 Derm7pt EffB4 OOF -> Derm7pt,PN_atyp,mel,melanoma,True,0.8430830039525692,0.6148221343873518
+F4 Derm7pt EffB4 OOF -> Derm7pt,STR_irr,mel,naevus,True,0.83015606242497,0.5692677070828331
+F4 Derm7pt EffB4 OOF -> Derm7pt,STR_irr,mel,melanoma,True,0.8240131578947368,0.6454906798245614
+F4 Derm7pt EffB4 OOF -> Derm7pt,PIG_irr,mel,naevus,True,0.8484249084249085,0.6366849816849817
+F4 Derm7pt EffB4 OOF -> Derm7pt,PIG_irr,mel,melanoma,True,0.8516534391534392,0.6005952380952381
+F4 Derm7pt EffB4 OOF -> Derm7pt,DaG_irr,mel,naevus,True,0.7717271727172718,0.6300011580105379
+F4 Derm7pt EffB4 OOF -> Derm7pt,DaG_irr,mel,melanoma,True,0.7652338214454416,0.5926625728231775
+F4 Derm7pt EffB4 OOF -> Derm7pt,RS,mel,naevus,True,0.8582991582128211,0.5819663285128427
+F4 Derm7pt EffB4 OOF -> Derm7pt,RS,mel,melanoma,True,0.8262187088274044,0.4982213438735178
+F4 Derm7pt EffB4 OOF -> Derm7pt,BWV,mel,naevus,True,0.912109375,0.6697668650793651
+F4 Derm7pt EffB4 OOF -> Derm7pt,BWV,mel,melanoma,True,0.9116669923783467,0.6884242068920592
+F4 Derm7pt EffB4 OOF -> Derm7pt,VS_atyp,mel,naevus,True,0.7911430281268701,0.6270696189906244
+F4 Derm7pt EffB4 OOF -> Derm7pt,VS_atyp,mel,melanoma,True,0.8136030994403789,0.5287343951786483
+F4 Derm7pt EffB4 OOF -> Derm7pt,PN_typ,nev,naevus,True,0.8749120636537855,0.511559081095505
+F4 Derm7pt EffB4 OOF -> Derm7pt,PN_typ,nev,melanoma,True,0.6785059901338971,0.6028188865398167
+F4 Derm7pt EffB4 OOF -> Derm7pt,STR_reg,nev,naevus,True,0.9224742268041237,0.5414891179839634
+F4 Derm7pt EffB4 OOF -> Derm7pt,STR_reg,nev,melanoma,False,,
+F4 Derm7pt EffB4 OOF -> Derm7pt,PIG_reg,nev,naevus,True,0.865863617803185,0.5280216414863209
+F4 Derm7pt EffB4 OOF -> Derm7pt,PIG_reg,nev,melanoma,False,,
+F4 Derm7pt EffB4 OOF -> Derm7pt,DaG_reg,nev,naevus,True,0.7181888582353226,0.5661996031169837
+F4 Derm7pt EffB4 OOF -> Derm7pt,DaG_reg,nev,melanoma,False,,
+F5 Derm7pt EffB4 -> EASY,PN_atyp,mel,naevus,True,0.7687472062008237,0.5919621041484935
+F5 Derm7pt EffB4 -> EASY,PN_atyp,mel,melanoma,True,0.7267610463420685,0.5926728051046394
+F5 Derm7pt EffB4 -> EASY,STR_irr,mel,naevus,True,0.6249318779123202,0.5204124409474211
+F5 Derm7pt EffB4 -> EASY,STR_irr,mel,melanoma,True,0.762111094094496,0.5088283482678209
+F5 Derm7pt EffB4 -> EASY,PIG_irr,mel,naevus,False,,
+F5 Derm7pt EffB4 -> EASY,PIG_irr,mel,melanoma,True,0.7504013169647286,0.6555087731486077
+F5 Derm7pt EffB4 -> EASY,DaG_irr,mel,naevus,True,0.7384537815126047,0.5950140056022407
+F5 Derm7pt EffB4 -> EASY,DaG_irr,mel,melanoma,True,0.7090596111719024,0.6160268997608104
+F5 Derm7pt EffB4 -> EASY,RS,mel,naevus,True,0.7027164683480994,0.6036528948108979
+F5 Derm7pt EffB4 -> EASY,RS,mel,melanoma,True,0.7101609416302637,0.585863498958962
+F5 Derm7pt EffB4 -> EASY,BWV,mel,naevus,False,,
+F5 Derm7pt EffB4 -> EASY,BWV,mel,melanoma,True,0.7522534150101028,0.6195661654886188
+F5 Derm7pt EffB4 -> EASY,VS_atyp,mel,naevus,True,0.8933590960106109,0.43757014590347926
+F5 Derm7pt EffB4 -> EASY,VS_atyp,mel,melanoma,True,0.8121012883182789,0.3705420519004008
+F5 Derm7pt EffB4 -> EASY,PN_typ,nev,naevus,True,0.8508824339709697,0.5879612572153127
+F5 Derm7pt EffB4 -> EASY,PN_typ,nev,melanoma,True,0.6436029785073615,0.4652479268911828
+F5 Derm7pt EffB4 -> EASY,DaG_reg,nev,naevus,True,0.6634219301824937,0.5339041240449691
+F5 Derm7pt EffB4 -> EASY,DaG_reg,nev,melanoma,False,,
+sens F1 ConvNeXt -> aware reads,TRBL,mel,naevus,False,,
+sens F1 ConvNeXt -> aware reads,TRBL,mel,melanoma,True,0.5825847790606298,0.508450704225352
+sens F1 ConvNeXt -> aware reads,ESA,mel,naevus,False,,
+sens F1 ConvNeXt -> aware reads,ESA,mel,melanoma,True,0.5718500520652551,0.468182344093486
+sens F1 ConvNeXt -> aware reads,GP,mel,naevus,False,,
+sens F1 ConvNeXt -> aware reads,GP,mel,melanoma,True,0.5248549815543988,0.5291775870421205
+sens F1 ConvNeXt -> aware reads,PV,mel,naevus,False,,
+sens F1 ConvNeXt -> aware reads,PV,mel,melanoma,True,0.6741820921222557,0.6239776151528197
+sens F1 ConvNeXt -> aware reads,BDG,mel,naevus,False,,
+sens F1 ConvNeXt -> aware reads,BDG,mel,melanoma,True,0.561456566247441,0.5625095057034222
+sens F1 ConvNeXt -> aware reads,WLSA,mel,naevus,False,,
+sens F1 ConvNeXt -> aware reads,WLSA,mel,melanoma,True,0.7336239070515782,0.6037756999485672
+sens F1 ConvNeXt -> aware reads,SPC,nev,naevus,True,0.6344797723617469,0.6040455276506248
+sens F1 ConvNeXt -> aware reads,SPC,nev,melanoma,False,,
+sens F1 ConvNeXt -> aware reads,APC,nev,naevus,True,0.5699788583509514,0.4095137420718816
+sens F1 ConvNeXt -> aware reads,APC,nev,melanoma,False,,
+sens F1 ConvNeXt -> aware reads,MS,nev,naevus,True,0.4940094137783483,0.44180573384681215
+sens F1 ConvNeXt -> aware reads,MS,nev,melanoma,False,,
+sens F3 ConvNeXt -> EASY,TRBL,mel,naevus,True,0.5809716599190282,0.536505975376048
+sens F3 ConvNeXt -> EASY,TRBL,mel,melanoma,True,0.5133342281495237,0.4713732164644711
+sens F3 ConvNeXt -> EASY,GP,mel,naevus,True,0.5418453725124397,0.5995011007026564
+sens F3 ConvNeXt -> EASY,GP,mel,melanoma,True,0.6425304803943491,0.5800474949685472
+sens F3 ConvNeXt -> EASY,PV,mel,naevus,False,,
+sens F3 ConvNeXt -> EASY,PV,mel,melanoma,True,0.7334164481296594,0.6491967890149166
+sens F3 ConvNeXt -> EASY,PRL,mel,naevus,True,0.6171538672385161,0.5144531690878896
+sens F3 ConvNeXt -> EASY,PRL,mel,melanoma,True,0.6512608830082033,0.5415064134979641
+sens F3 ConvNeXt -> EASY,WLSA,mel,naevus,False,,
+sens F3 ConvNeXt -> EASY,WLSA,mel,melanoma,True,0.7289613571140139,0.6942378277881626

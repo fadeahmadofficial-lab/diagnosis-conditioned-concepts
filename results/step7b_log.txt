@@ -1,0 +1,7 @@
+Blind reads 1560, images 196, concepts 9: ['TRBL', 'ESA', 'GP', 'BDG', 'WLSA', 'OPC', 'SPC', 'APC', 'MS']
+  coupling eps2 to TRUE diagnosis   0.026 [0.014, 0.042]
+  coupling eps2 to OWN diagnosis    0.205 [0.193, 0.219]
+  difference own - true             +0.179 [+0.161, +0.195]
+  reads with own dx naevus (0) marking >=1 melanoma-side concept: 0.000
+  reads with own dx melanoma (1) marking >=1 naevus-side concept: 0.000
+  own_dx counts: {0.0: 649, 0.5: 230, 1.0: 681}

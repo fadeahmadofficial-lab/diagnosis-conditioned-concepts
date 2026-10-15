@@ -1,0 +1,2 @@
+aware readers 14, blind readers 113; concepts F1 9, F2 9, shared 8
+F1 same-side dtheta +0.053; image x reader CI [-0.001  0.094]

@@ -1,0 +1,44 @@
+unit test: 1839 random instances, exact-bound mismatches 0
+                   setting concept side  naive  lower  upper  share_uncertain  contains_0.5
+                        F1    TRBL  mel  0.774  0.307  0.793            0.462          True
+                        F1     ESA  mel  0.756  0.250  0.776            0.462          True
+                        F1      GP  mel  0.768  0.296  0.788            0.462          True
+                        F1      PV  mel  0.822  0.285  0.833            0.462          True
+                        F1     PRL  mel  0.677  0.161  0.770            0.462          True
+                        F1     BDG  mel  0.753  0.289  0.768            0.462          True
+                        F1    WLSA  mel  0.845  0.301  0.858            0.462          True
+                        F1     OPC  nev  0.845  0.141  0.855            0.538          True
+                        F1     SPC  nev  0.781  0.183  0.830            0.538          True
+                        F1     APC  nev  0.741  0.233  0.838            0.538          True
+                        F1      MS  nev  0.752  0.195  0.823            0.538          True
+                        F2    TRBL  mel  0.620  0.185  0.786            0.563          True
+                        F2     ESA  mel  0.707  0.270  0.813            0.563          True
+                        F2      GP  mel  0.626  0.204  0.774            0.563          True
+                        F2      PV  mel  0.725  0.193  0.861            0.563          True
+                        F2     PRL  mel  0.675  0.208  0.805            0.563          True
+                        F2     BDG  mel  0.623  0.197  0.774            0.563          True
+                        F2    WLSA  mel  0.725  0.258  0.820            0.563          True
+                        F2     PIF  mel  0.741  0.163  0.918            0.563          True
+                        F2     OPC  nev  0.716  0.246  0.811            0.437          True
+                        F2     SPC  nev  0.715  0.318  0.811            0.437          True
+                        F2     MVP  nev  0.744  0.154  0.892            0.437          True
+                        F2    PRLC  nev  0.766  0.201  0.875            0.437          True
+                        F2     PLF  nev  0.924  0.123  0.951            0.437          True
+                        F2     APC  nev  0.587  0.242  0.748            0.437          True
+                        F2      MS  nev  0.620  0.206  0.783            0.437          True
+F4 (if explanation labels) PN_atyp  mel  0.861  0.331  0.924            0.604          True
+F4 (if explanation labels) STR_irr  mel  0.867  0.333  0.924            0.595          True
+F4 (if explanation labels) PIG_irr  mel  0.871  0.356  0.931            0.553          True
+F4 (if explanation labels) DaG_irr  mel  0.837  0.285  0.935            0.491          True
+F4 (if explanation labels)      RS  mel  0.856  0.383  0.922            0.549          True
+F4 (if explanation labels)     BWV  mel  0.936  0.343  0.957            0.622          True
+F4 (if explanation labels) VS_atyp  mel  0.853  0.165  0.915            0.677          True
+F4 (if explanation labels)  PN_typ  nev  0.864  0.664  0.890            0.261         False
+F4 (if explanation labels) STR_reg  nev  0.933  0.499  0.935            0.294          True
+F4 (if explanation labels) PIG_reg  nev  0.883  0.434  0.897            0.299          True
+F4 (if explanation labels) DaG_reg  nev  0.797  0.459  0.815            0.290          True
+                            naive  lower  upper  share_uncertain
+setting                                                         
+F1                          0.774  0.240  0.812            0.490
+F2                          0.701  0.211  0.828            0.504
+F4 (if explanation labels)  0.869  0.387  0.913            0.476

@@ -1,0 +1,3 @@
+S1 aware ref excess +0.009 [-0.009, +0.026]
+S5 EASY  ref excess +0.054 [+0.039, +0.069]
+difference S5 - S1  +0.045 [+0.023, +0.068]

@@ -1,0 +1,3 @@
+concepts analysable in both arms: ['TRBL', 'ESA', 'GP', 'BDG', 'WLSA', 'SPC', 'APC', 'MS']
+overall excess    F1 +0.007  F2 +0.028  F2-F1 +0.021 [+0.002, +0.040]
+same-side dtheta  F1 +0.056  F2 +0.058  F2-F1 +0.002 [-0.024, +0.027]

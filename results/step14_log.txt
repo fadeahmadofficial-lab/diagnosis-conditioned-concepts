@@ -1,0 +1,50 @@
+[effb0 standard -> EASY blinded (primary map): mean of 5 files]
+=== effb0 standard -> EASY blinded (primary map): images 242, reads 1206, analysable concepts 5; black box misdiagnoses 77 images (threshold 0.5; AUROC 0.839)
+    all           model 0.712  null 0.649  excess +0.063 [+0.049, +0.078]  (concepts 5)
+    within_nev    model 0.627  null 0.573  excess +0.054 [+0.014, +0.108]  (concepts 3)
+    within_mel    model 0.657  null 0.581  excess +0.076 [+0.058, +0.094]  (concepts 5)
+    misdiagnosed  model 0.643  null 0.544  excess +0.099 [+0.047, +0.135]  (concepts 5)
+[effb0 masked -> EASY blinded (primary map): mean of 5 files]
+=== effb0 masked -> EASY blinded (primary map): images 242, reads 1206, analysable concepts 5; black box misdiagnoses 77 images (threshold 0.5; AUROC 0.839)
+    all           model 0.805  null 0.649  excess +0.157 [+0.127, +0.186]  (concepts 5)
+    within_nev    model 0.778  null 0.573  excess +0.205 [+0.120, +0.304]  (concepts 3)
+    within_mel    model 0.750  null 0.581  excess +0.169 [+0.131, +0.204]  (concepts 5)
+    misdiagnosed  model 0.745  null 0.544  excess +0.201 [+0.108, +0.244]  (concepts 5)
+[convnext_tiny standard -> EASY blinded (primary map): mean of 1 files]
+=== convnext_tiny standard -> EASY blinded (primary map): images 242, reads 1206, analysable concepts 5; black box misdiagnoses 80 images (threshold 0.5; AUROC 0.785)
+    all           model 0.695  null 0.639  excess +0.056 [+0.033, +0.079]  (concepts 5)
+    within_nev    model 0.580  null 0.550  excess +0.030 [-0.044, +0.152]  (concepts 3)
+    within_mel    model 0.654  null 0.587  excess +0.067 [+0.040, +0.094]  (concepts 5)
+    misdiagnosed  model 0.601  null 0.518  excess +0.083 [+0.027, +0.149]  (concepts 5)
+[convnext_tiny masked -> EASY blinded (primary map): mean of 1 files]
+=== convnext_tiny masked -> EASY blinded (primary map): images 242, reads 1206, analysable concepts 5; black box misdiagnoses 80 images (threshold 0.5; AUROC 0.785)
+    all           model 0.785  null 0.639  excess +0.147 [+0.112, +0.179]  (concepts 5)
+    within_nev    model 0.765  null 0.550  excess +0.215 [+0.135, +0.347]  (concepts 3)
+    within_mel    model 0.744  null 0.587  excess +0.157 [+0.118, +0.195]  (concepts 5)
+    misdiagnosed  model 0.734  null 0.518  excess +0.216 [+0.106, +0.267]  (concepts 5)
+[effb0 standard -> Derma-XAI aware test labels: mean of 5 files]
+=== effb0 standard -> Derma-XAI aware test labels: images 196, reads 424, analysable concepts 9; black box misdiagnoses 41 images (threshold 0.5; AUROC 0.874)
+    all           model 0.780  null 0.773  excess +0.007 [-0.011, +0.023]  (concepts 9)
+    within_nev    model 0.568  null 0.494  excess +0.075 [+0.034, +0.112]  (concepts 3)
+    within_mel    model 0.615  null 0.572  excess +0.043 [+0.023, +0.064]  (concepts 6)
+    misdiagnosed  model 0.451  null 0.392  excess +0.059 [+0.020, +0.136]  (concepts 4)
+[effb0 masked -> Derma-XAI aware test labels: mean of 5 files]
+=== effb0 masked -> Derma-XAI aware test labels: images 196, reads 424, analysable concepts 9; black box misdiagnoses 41 images (threshold 0.5; AUROC 0.874)
+    all           model 0.675  null 0.773  excess -0.098 [-0.130, -0.064]  (concepts 9)
+    within_nev    model 0.602  null 0.494  excess +0.109 [+0.056, +0.160]  (concepts 3)
+    within_mel    model 0.662  null 0.572  excess +0.090 [+0.046, +0.134]  (concepts 6)
+    misdiagnosed  model 0.600  null 0.392  excess +0.208 [+0.098, +0.384]  (concepts 4)
+[convnext_tiny standard -> Derma-XAI aware test labels: mean of 1 files]
+=== convnext_tiny standard -> Derma-XAI aware test labels: images 196, reads 424, analysable concepts 9; black box misdiagnoses 42 images (threshold 0.5; AUROC 0.838)
+    all           model 0.777  null 0.741  excess +0.036 [+0.007, +0.066]  (concepts 9)
+    within_nev    model 0.566  null 0.485  excess +0.081 [+0.037, +0.127]  (concepts 3)
+    within_mel    model 0.608  null 0.549  excess +0.059 [+0.024, +0.092]  (concepts 6)
+    misdiagnosed  model 0.490  null 0.340  excess +0.151 [+0.034, +0.279]  (concepts 4)
+[convnext_tiny masked -> Derma-XAI aware test labels: mean of 1 files]
+=== convnext_tiny masked -> Derma-XAI aware test labels: images 196, reads 424, analysable concepts 9; black box misdiagnoses 42 images (threshold 0.5; AUROC 0.838)
+    all           model 0.671  null 0.741  excess -0.069 [-0.106, -0.031]  (concepts 9)
+    within_nev    model 0.633  null 0.485  excess +0.147 [+0.096, +0.194]  (concepts 3)
+    within_mel    model 0.666  null 0.549  excess +0.116 [+0.069, +0.158]  (concepts 6)
+    misdiagnosed  model 0.604  null 0.340  excess +0.265 [+0.160, +0.406]  (concepts 4)
+=== T2 Derma-XAI EffB0 masked - standard vs EASY (5 concepts): +0.093 [+0.067, +0.120] -> PASSED (rule: CI above 0)
+=== Holm (one-sided bootstrap p): T1 p=0.0020, T2 p=0.0010 -> T1 holds, T2 holds

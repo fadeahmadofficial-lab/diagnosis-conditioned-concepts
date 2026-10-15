@@ -1,0 +1,32 @@
+[V2 pi = 0.0: mean of 3 seeds]
+=== V2 pi=0.0 -> blinded EASY: images 242, reads 1206, analysable concepts 9; black box misdiagnoses 88 images (threshold 0.5; AUROC 0.811)
+    all           model 0.773  null 0.641  excess +0.132 [+0.114, +0.152]  (concepts 9)
+    within_nev    model 0.749  null 0.566  excess +0.183 [+0.142, +0.231]  (concepts 7)
+    within_mel    model 0.729  null 0.555  excess +0.174 [+0.148, +0.198]  (concepts 8)
+    misdiagnosed  model 0.733  null 0.542  excess +0.191 [+0.152, +0.229]  (concepts 8)
+=== V2 pi=0.0 -> EASY censored at 1: images 242, reads 1206, analysable concepts 9; black box misdiagnoses 88 images (threshold 0.5; AUROC 0.811)
+    all           model 0.818  null 0.727  excess +0.091 [+0.065, +0.116]  (concepts 9)
+    within_nev    model 0.757  null 0.568  excess +0.189 [+0.135, +0.240]  (concepts 2)
+    within_mel    model 0.744  null 0.568  excess +0.176 [+0.151, +0.203]  (concepts 7)
+    misdiagnosed  model 0.721  null 0.517  excess +0.204 [+0.157, +0.249]  (concepts 7)
+[V2 pi = 0.5: mean of 3 seeds]
+=== V2 pi=0.5 -> blinded EASY: images 242, reads 1206, analysable concepts 9; black box misdiagnoses 88 images (threshold 0.5; AUROC 0.827)
+    all           model 0.763  null 0.648  excess +0.115 [+0.096, +0.134]  (concepts 9)
+    within_nev    model 0.712  null 0.565  excess +0.147 [+0.102, +0.192]  (concepts 7)
+    within_mel    model 0.727  null 0.564  excess +0.164 [+0.139, +0.188]  (concepts 8)
+    misdiagnosed  model 0.723  null 0.536  excess +0.187 [+0.146, +0.224]  (concepts 8)
+[V2 pi = 1.0: mean of 3 seeds]
+=== V2 pi=1.0 -> blinded EASY: images 242, reads 1206, analysable concepts 9; black box misdiagnoses 83 images (threshold 0.5; AUROC 0.846)
+    all           model 0.748  null 0.650  excess +0.098 [+0.082, +0.114]  (concepts 9)
+    within_nev    model 0.706  null 0.557  excess +0.149 [+0.109, +0.184]  (concepts 7)
+    within_mel    model 0.702  null 0.565  excess +0.137 [+0.113, +0.162]  (concepts 8)
+    misdiagnosed  model 0.685  null 0.535  excess +0.151 [+0.117, +0.191]  (concepts 8)
+=== V2 pi=1.0 -> EASY censored at 1: images 242, reads 1206, analysable concepts 9; black box misdiagnoses 83 images (threshold 0.5; AUROC 0.846)
+    all           model 0.818  null 0.749  excess +0.069 [+0.052, +0.087]  (concepts 9)
+    within_nev    model 0.741  null 0.567  excess +0.174 [+0.113, +0.236]  (concepts 2)
+    within_mel    model 0.707  null 0.576  excess +0.131 [+0.107, +0.155]  (concepts 7)
+    misdiagnosed  model 0.668  null 0.525  excess +0.143 [+0.108, +0.182]  (concepts 7)
+=== THE TEST: excess(pi=1) - excess(pi=0) vs blinded EASY: -0.034 [-0.048, -0.020] -> DETECTED: censored training lowers excess
+within-naevus AUROC, melanoma-side concepts, pi=0.0: mean 0.747 over 5 concepts
+within-naevus AUROC, melanoma-side concepts, pi=0.5: mean 0.699 over 5 concepts
+within-naevus AUROC, melanoma-side concepts, pi=1.0: mean 0.692 over 5 concepts

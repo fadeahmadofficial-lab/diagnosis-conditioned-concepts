@@ -1,0 +1,43 @@
+setting,concept,model,null
+S1-retrained Derma-XAI EffB0 -> aware reads,TRBL,0.7817553310116485,0.7777821619117874
+S1-retrained Derma-XAI EffB0 -> aware reads,ESA,0.7744890929965557,0.7622732491389208
+S1-retrained Derma-XAI EffB0 -> aware reads,GP,0.7760476134670438,0.787338233078301
+S1-retrained Derma-XAI EffB0 -> aware reads,PV,0.8319709852734923,0.8274018232819071
+S1-retrained Derma-XAI EffB0 -> aware reads,BDG,0.7605333092289615,0.7658049353701532
+S1-retrained Derma-XAI EffB0 -> aware reads,WLSA,0.8563770696574269,0.8188083025487016
+S1-retrained Derma-XAI EffB0 -> aware reads,SPC,0.7657403165877742,0.7347941161500483
+S1-retrained Derma-XAI EffB0 -> aware reads,APC,0.7331661346709226,0.7273141814865481
+S1-retrained Derma-XAI EffB0 -> aware reads,MS,0.7361479237662502,0.7553956834532374
+S2-retrained Derma-XAI EffB0 -> blind reads,TRBL,0.6211508650506734,0.6067085785614617
+S2-retrained Derma-XAI EffB0 -> blind reads,ESA,0.706096385282428,0.6770910418062961
+S2-retrained Derma-XAI EffB0 -> blind reads,GP,0.6193190438799472,0.6177097921776478
+S2-retrained Derma-XAI EffB0 -> blind reads,BDG,0.6381109877060198,0.6153672988322298
+S2-retrained Derma-XAI EffB0 -> blind reads,WLSA,0.7266566183007878,0.6910073860938194
+S2-retrained Derma-XAI EffB0 -> blind reads,OPC,0.7224289282969821,0.6288404134558326
+S2-retrained Derma-XAI EffB0 -> blind reads,SPC,0.71596784807243,0.6746840756626806
+S2-retrained Derma-XAI EffB0 -> blind reads,APC,0.5852186453554501,0.5167163250649494
+S2-retrained Derma-XAI EffB0 -> blind reads,MS,0.6355394100856947,0.6234493081851914
+S5 Derma-XAI effb0 on EASY -> blinded experts (primary map),TRBL,0.5448378696236558,0.5053094023017471
+S5 Derma-XAI effb0 on EASY -> blinded experts (primary map),GP,0.7204189372453635,0.6741566700769938
+S5 Derma-XAI effb0 on EASY -> blinded experts (primary map),PV,0.8078657178303444,0.7054246011797427
+S5 Derma-XAI effb0 on EASY -> blinded experts (primary map),PRL,0.6612915190082435,0.560632295596286
+S5 Derma-XAI effb0 on EASY -> blinded experts (primary map),WLSA,0.8245097225487521,0.7976393769181406
+S5 Derma-XAI convnext_tiny on EASY -> blinded experts (primary map),TRBL,0.5404604019657256,0.5190521568380375
+S5 Derma-XAI convnext_tiny on EASY -> blinded experts (primary map),GP,0.7103583462322264,0.6644788280628543
+S5 Derma-XAI convnext_tiny on EASY -> blinded experts (primary map),PV,0.7933573770794231,0.7099489454726581
+S5 Derma-XAI convnext_tiny on EASY -> blinded experts (primary map),PRL,0.6201092354786674,0.5386043262330272
+S5 Derma-XAI convnext_tiny on EASY -> blinded experts (primary map),WLSA,0.8112644277508438,0.7609936641801005
+S5 Derma-XAI effb0 on EASY -> blinded experts (primary+approx map),TRBL,0.5448378696236558,0.5053094023017471
+S5 Derma-XAI effb0 on EASY -> blinded experts (primary+approx map),GP,0.7204189372453635,0.6741566700769938
+S5 Derma-XAI effb0 on EASY -> blinded experts (primary+approx map),PV,0.8078657178303444,0.7054246011797427
+S5 Derma-XAI effb0 on EASY -> blinded experts (primary+approx map),PRL,0.6612915190082435,0.560632295596286
+S5 Derma-XAI effb0 on EASY -> blinded experts (primary+approx map),WLSA,0.8245097225487521,0.7976393769181406
+S5 Derma-XAI effb0 on EASY -> blinded experts (primary+approx map),ESA,0.7904327044950211,0.7536850129013266
+S5 Derma-XAI effb0 on EASY -> blinded experts (primary+approx map),BDG,0.7098175584196845,0.6852424348666026
+S5 Derma-XAI convnext_tiny on EASY -> blinded experts (primary+approx map),TRBL,0.5404604019657256,0.5190521568380375
+S5 Derma-XAI convnext_tiny on EASY -> blinded experts (primary+approx map),GP,0.7103583462322264,0.6644788280628543
+S5 Derma-XAI convnext_tiny on EASY -> blinded experts (primary+approx map),PV,0.7933573770794231,0.7099489454726581
+S5 Derma-XAI convnext_tiny on EASY -> blinded experts (primary+approx map),PRL,0.6201092354786674,0.5386043262330272
+S5 Derma-XAI convnext_tiny on EASY -> blinded experts (primary+approx map),WLSA,0.8112644277508438,0.7609936641801005
+S5 Derma-XAI convnext_tiny on EASY -> blinded experts (primary+approx map),ESA,0.7907781737405052,0.6901844753980962
+S5 Derma-XAI convnext_tiny on EASY -> blinded experts (primary+approx map),BDG,0.7148083469073423,0.6795661645866633

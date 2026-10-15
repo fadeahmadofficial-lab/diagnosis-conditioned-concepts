@@ -1,0 +1,44 @@
+[effb4 std pi0: mean of 3 seeds]
+=== effb4 std pi0 -> blinded EASY: images 242, reads 1206, analysable concepts 9; black box misdiagnoses 88 images (threshold 0.5; AUROC 0.811)
+    all           model 0.773  null 0.641  excess +0.132 [+0.114, +0.152]  (concepts 9)
+    within_nev    model 0.749  null 0.566  excess +0.183 [+0.142, +0.231]  (concepts 7)
+    within_mel    model 0.729  null 0.555  excess +0.174 [+0.148, +0.198]  (concepts 8)
+    misdiagnosed  model 0.733  null 0.542  excess +0.191 [+0.152, +0.229]  (concepts 8)
+[effb4 std pi1: mean of 3 seeds]
+=== effb4 std pi1 -> blinded EASY: images 242, reads 1206, analysable concepts 9; black box misdiagnoses 83 images (threshold 0.5; AUROC 0.846)
+    all           model 0.748  null 0.650  excess +0.098 [+0.082, +0.114]  (concepts 9)
+    within_nev    model 0.706  null 0.557  excess +0.149 [+0.109, +0.184]  (concepts 7)
+    within_mel    model 0.702  null 0.565  excess +0.137 [+0.113, +0.162]  (concepts 8)
+    misdiagnosed  model 0.685  null 0.535  excess +0.151 [+0.117, +0.191]  (concepts 8)
+[effb4 aware pi0: mean of 3 seeds]
+=== effb4 aware pi0 -> blinded EASY: images 242, reads 1206, analysable concepts 9; black box misdiagnoses 84 images (threshold 0.5; AUROC 0.805)
+    all           model 0.720  null 0.634  excess +0.086 [+0.064, +0.111]  (concepts 9)
+    within_nev    model 0.678  null 0.555  excess +0.123 [+0.072, +0.179]  (concepts 7)
+    within_mel    model 0.693  null 0.551  excess +0.142 [+0.114, +0.170]  (concepts 8)
+    misdiagnosed  model 0.669  null 0.512  excess +0.157 [+0.107, +0.199]  (concepts 8)
+[effb4 aware pi1: mean of 3 seeds]
+=== effb4 aware pi1 -> blinded EASY: images 242, reads 1206, analysable concepts 9; black box misdiagnoses 89 images (threshold 0.5; AUROC 0.806)
+    all           model 0.750  null 0.628  excess +0.121 [+0.101, +0.143]  (concepts 9)
+    within_nev    model 0.708  null 0.533  excess +0.175 [+0.126, +0.222]  (concepts 7)
+    within_mel    model 0.711  null 0.550  excess +0.161 [+0.135, +0.188]  (concepts 8)
+    misdiagnosed  model 0.706  null 0.511  excess +0.195 [+0.155, +0.231]  (concepts 8)
+[convnext std pi0: mean of 3 seeds]
+=== convnext std pi0 -> blinded EASY: images 242, reads 1206, analysable concepts 9; black box misdiagnoses 82 images (threshold 0.5; AUROC 0.843)
+    all           model 0.803  null 0.672  excess +0.131 [+0.113, +0.148]  (concepts 9)
+    within_nev    model 0.802  null 0.616  excess +0.185 [+0.145, +0.235]  (concepts 7)
+    within_mel    model 0.755  null 0.570  excess +0.186 [+0.161, +0.210]  (concepts 8)
+    misdiagnosed  model 0.762  null 0.572  excess +0.190 [+0.155, +0.223]  (concepts 8)
+[convnext std pi1: mean of 3 seeds]
+=== convnext std pi1 -> blinded EASY: images 242, reads 1206, analysable concepts 9; black box misdiagnoses 81 images (threshold 0.5; AUROC 0.844)
+    all           model 0.774  null 0.667  excess +0.107 [+0.092, +0.122]  (concepts 9)
+    within_nev    model 0.771  null 0.605  excess +0.166 [+0.121, +0.209]  (concepts 7)
+    within_mel    model 0.715  null 0.566  excess +0.150 [+0.125, +0.174]  (concepts 8)
+    misdiagnosed  model 0.699  null 0.569  excess +0.131 [+0.096, +0.163]  (concepts 8)
+=== T1 fix at pi=1: aware - std: +0.023 [+0.010, +0.037] -> PASSED (rule: CI above 0)
+    recovery share of the excess lost to censoring (0.034): 68%
+=== T3 ConvNeXt replication of V2: pi1 - pi0: -0.024 [-0.036, -0.012] -> PASSED (rule: CI below 0)
+=== secondary: cost of the fix on uncensored labels: -0.046 [-0.061, -0.032] -> not passed (rule: CI above 0)
+within-naevus AUROC, melanoma-side concepts, effb4 std pi1: 0.692 over 5
+within-naevus AUROC, melanoma-side concepts, effb4 aware pi1: 0.690 over 5
+within-naevus AUROC, melanoma-side concepts, effb4 std pi0: 0.747 over 5
+within-naevus AUROC, melanoma-side concepts, effb4 aware pi0: 0.653 over 5

@@ -1,0 +1,2 @@
+F3 excess +0.063; image x reader CI [+0.045, +0.082] -> stands
+F5 excess +0.138; image x reader CI [+0.112, +0.165] -> stands

@@ -1,0 +1,26 @@
+[effb0 standard -> Derma-XAI BLIND test reads: mean of 5 files]
+=== effb0 standard -> Derma-XAI BLIND test reads: images 196, reads 1560, analysable concepts 9; black box misdiagnoses 41 images (threshold 0.5; AUROC 0.874)
+    all           model 0.663  null 0.628  excess +0.035 [+0.022, +0.049]  (concepts 9)
+    within_nev    model 0.611  null 0.529  excess +0.082 [+0.041, +0.126]  (concepts 5)
+    within_mel    model 0.598  null 0.560  excess +0.038 [+0.012, +0.063]  (concepts 6)
+    misdiagnosed  model nan  null nan  excess +nan [-0.037, +0.115]  (concepts 0)
+[effb0 masked -> Derma-XAI BLIND test reads: mean of 5 files]
+=== effb0 masked -> Derma-XAI BLIND test reads: images 196, reads 1560, analysable concepts 9; black box misdiagnoses 41 images (threshold 0.5; AUROC 0.874)
+    all           model 0.669  null 0.628  excess +0.041 [+0.010, +0.074]  (concepts 9)
+    within_nev    model 0.644  null 0.529  excess +0.115 [+0.059, +0.169]  (concepts 5)
+    within_mel    model 0.646  null 0.560  excess +0.086 [+0.029, +0.137]  (concepts 6)
+    misdiagnosed  model nan  null nan  excess +nan [-0.033, +0.230]  (concepts 0)
+[convnext_tiny standard -> Derma-XAI BLIND test reads: mean of 1 files]
+=== convnext_tiny standard -> Derma-XAI BLIND test reads: images 196, reads 1560, analysable concepts 9; black box misdiagnoses 42 images (threshold 0.5; AUROC 0.838)
+    all           model 0.660  null 0.642  excess +0.018 [-0.002, +0.039]  (concepts 9)
+    within_nev    model 0.610  null 0.563  excess +0.047 [-0.015, +0.114]  (concepts 5)
+    within_mel    model 0.600  null 0.564  excess +0.036 [-0.003, +0.075]  (concepts 6)
+    misdiagnosed  model nan  null nan  excess +nan [-0.055, +0.177]  (concepts 0)
+[convnext_tiny masked -> Derma-XAI BLIND test reads: mean of 1 files]
+=== convnext_tiny masked -> Derma-XAI BLIND test reads: images 196, reads 1560, analysable concepts 9; black box misdiagnoses 42 images (threshold 0.5; AUROC 0.838)
+    all           model 0.653  null 0.642  excess +0.011 [-0.015, +0.040]  (concepts 9)
+    within_nev    model 0.622  null 0.563  excess +0.059 [+0.001, +0.117]  (concepts 5)
+    within_mel    model 0.641  null 0.564  excess +0.077 [+0.026, +0.123]  (concepts 6)
+    misdiagnosed  model nan  null nan  excess +nan [-0.088, +0.192]  (concepts 0)
+=== B1 PRIMARY effb0 masked - standard vs BLIND reads (9 concepts: TRBL, ESA, GP, BDG, WLSA, OPC, SPC, APC, MS): +0.006 [-0.018, +0.033] -> not passed (rule: CI above 0)
+=== B1 secondary convnext_tiny masked - standard vs BLIND reads (9 concepts: TRBL, ESA, GP, BDG, WLSA, OPC, SPC, APC, MS): -0.007 [-0.035, +0.023]

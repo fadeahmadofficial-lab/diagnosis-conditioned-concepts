@@ -1,0 +1,24 @@
+EASY readers: [np.str_('2T4M'), np.str_('3CKV'), np.str_('577L'), np.str_('57HO'), np.str_('5B7U'), np.str_('5KJX'), np.str_('6IGA'), np.str_('6YB2'), np.str_('BP2I'), np.str_('CK7P'), np.str_('CXLH'), np.str_('E2CZ'), np.str_('HQLV'), np.str_('ICX6'), np.str_('ILNZ'), np.str_('OFE6'), np.str_('PKTZ'), np.str_('VMZT'), np.str_('WHCK'), np.str_('WKPD'), np.str_('WTPZ')]; reads per reader [60, 57, 60, 62, 60, 59, 59, 60, 60, 4, 60, 60, 60, 62, 61, 60, 60, 62, 60, 61, 59]
+V delta -0.044; image x reader 95% CI [-0.068, -0.025]
+  without 2T4M: -0.045
+  without 3CKV: -0.042
+  without 577L: -0.045
+  without 57HO: -0.045
+  without 5B7U: -0.045
+  without 5KJX: -0.044
+  without 6IGA: -0.045
+  without 6YB2: -0.045
+  without BP2I: -0.044
+  without CK7P: -0.044
+  without CXLH: -0.044
+  without E2CZ: -0.044
+  without HQLV: -0.044
+  without ICX6: -0.044
+  without ILNZ: -0.045
+  without OFE6: -0.044
+  without PKTZ: -0.046
+  without VMZT: -0.044
+  without WHCK: -0.042
+  without WKPD: -0.044
+  without WTPZ: -0.045
+RULE: V stands

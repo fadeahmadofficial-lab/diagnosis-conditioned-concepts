@@ -1,0 +1,52 @@
+--- Derma-XAI test, aware: images 196, reads 424, classes 2, analysable 9/18
+    eps2: 0.300 [0.280, 0.321]
+    null_auc: 0.804
+    cross_nev_has_mel: 0.000 [0.000, 0.000]
+    cross_mel_has_nev: 0.000 [0.000, 0.000]
+    alpha_within_nev: -0.257 [-0.372, -0.146]
+    alpha_within_mel: 0.044 [-0.025, 0.109]
+    alpha_all: 0.270 [0.221, 0.314]
+--- Derma-XAI test, blind: images 196, reads 1560, classes 2, analysable 9/18
+    eps2: 0.026 [0.014, 0.043]
+    null_auc: 0.575
+    cross_nev_has_mel: 0.268 [0.215, 0.324]
+    cross_mel_has_nev: 0.345 [0.291, 0.403]
+    alpha_within_nev: 0.141 [0.104, 0.171]
+    alpha_within_mel: 0.117 [0.091, 0.138]
+    alpha_all: 0.158 [0.133, 0.180]
+--- Derma-XAI train labels: images 3254, reads 3254, classes 2, analysable 15/18
+    eps2: 0.387 [0.382, 0.393]
+    null_auc: 0.822
+    cross_nev_has_mel: 0.000 [0.000, 0.000]
+    cross_mel_has_nev: 0.000 [0.000, 0.000]
+--- Derm7pt (atlas): images 823, reads 823, classes 2, analysable 11/11
+    eps2: 0.138 [0.121, 0.158]
+    null_auc: 0.670
+    cross_nev_has_mel: 0.614 [0.572, 0.653]
+    cross_mel_has_nev: 0.185 [0.140, 0.233]
+--- PH2 (one expert): images 200, reads 200, classes 2, analysable 7/7
+    eps2: 0.206 [0.153, 0.265]
+    null_auc: 0.652
+    cross_nev_has_mel: 0.531 [0.458, 0.606]
+    cross_mel_has_nev: 0.025 [0.000, 0.081]
+--- EASY (5 blinded experts): images 242, reads 1206, classes 2, analysable 9/10
+    eps2: 0.065 [0.049, 0.085]
+    null_auc: 0.600
+    cross_nev_has_mel: 0.584 [0.512, 0.652]
+    cross_mel_has_nev: 0.226 [0.183, 0.270]
+    alpha_within_nev: 0.432 [0.379, 0.468]
+    alpha_within_mel: 0.392 [0.359, 0.420]
+    alpha_all: 0.477 [0.448, 0.505]
+--- SkinCon-Fitz17k, fine diagnosis: images 3230, reads 3230, classes 113, analysable 29/48
+    eps2: 0.162
+    null_auc: 0.796
+--- SkinCon-Fitz17k, malignant vs not: images 3230, reads 3230, classes 2, analysable 29/48
+    eps2: 0.008 [0.007, 0.010]
+    null_auc: 0.528
+--- SkinCon-DDI, fine diagnosis: images 636, reads 636, classes 76, analysable 12/48
+    eps2: 0.143
+    null_auc: 0.683
+--- SkinCon-DDI, malignant vs not: images 636, reads 636, classes 2, analysable 12/48
+    eps2: 0.023 [0.015, 0.034]
+    null_auc: 0.504
+=== Same-image contrast, Derma-XAI aware - blind coupling eps2 on 8 common concepts: +0.288 [+0.264, +0.309] (aware 0.314, blind 0.027); null AUROC aware 0.810, blind 0.574
